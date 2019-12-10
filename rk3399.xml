@@ -14,7 +14,7 @@
 
   <!-- friendlyelec device configs -->
   <project path="device/friendlyelec" name="friendlywrt_device_rk3399" remote="origin" />
-  <project path="configs" name="friendlywrt_configs" remote="origin" />
+  <project path="configs" name="friendlywrt_configs" remote="origin" revision="refs/heads/master-v18.06.1" />
 
   <!-- friendlyelec scripts -->
   <project path="scripts" name="friendlywrt_scripts" remote="origin">
