@@ -13,8 +13,8 @@
   </project>
 
   <!-- friendlyelec device configs -->
-  <project path="device/friendlyelec" name="friendlywrt_device_h3" remote="origin" />
-  <project path="configs" name="friendlywrt_configs" remote="origin" />
+  <project path="device/friendlyelec" name="friendlywrt_device_h3" remote="origin" revision="refs/heads/master-v19.07.1" />
+  <project path="configs" name="friendlywrt_configs" remote="origin" revision="refs/heads/master-v19.07.1" />
 
   <!-- friendlyelec scripts -->
   <project path="scripts" name="friendlywrt_scripts" remote="origin">
@@ -22,7 +22,7 @@
   </project>
 
   <!-- friendlywrt source code -->
-  <project path="friendlywrt" name="friendlywrt" remote="origin" revision="refs/heads/master-v18.06.1" />
+  <project path="friendlywrt" name="friendlywrt" remote="origin" revision="refs/heads/master-v19.07.1" />
 
   <!-- toolchain -->
   <project path="toolchain" name="prebuilts" remote="origin" revision="refs/heads/master" />
