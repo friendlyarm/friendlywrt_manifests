@@ -4,11 +4,18 @@
           fetch="."
           revision="refs/heads/master" />
 
-  <project path="kernel" name="kernel-rockchip" remote="origin" revision="refs/heads/nanopi4-linux-v4.4.y" />
-  <project path="u-boot" name="uboot-rockchip" remote="origin" revision="refs/heads/nanopi4-v2014.10_oreo" />
+  <!-- kernel 4.19 -->
+  <!-- <project path="kernel" name="kernel-rockchip" remote="origin" revision="refs/heads/nanopi4-linux-v4.19.y" /> -->
+  <!-- kernel 5.4.y -->
+  <project path="kernel" name="kernel-rockchip" remote="origin" revision="refs/heads/nanopi-r2-v5.4.y" />
+  <project path="u-boot" name="uboot-rockchip" remote="origin" revision="refs/heads/nanopi4-v2017.09" />
+  <project path="rkbin" name="rkbin" remote="origin" revision="25de1a8bffb1e971f1a69d1aa4bc4f9e3d352ea3" upstream="master"/>
 
   <!-- img tools for rk3399 -->
-  <project path="scripts/sd-fuse" name="sd-fuse_rk3399" remote="origin" >
+  <!-- for kernel 4.19 -->
+  <!--<project path="scripts/sd-fuse" name="sd-fuse_rk3399" remote="origin" revision="refs/heads/kernel-4.19"> -->
+  <!-- for kernel 5.4.y -->
+  <project path="scripts/sd-fuse" name="sd-fuse_rk3399" remote="origin" revision="refs/heads/kernel-5.4.y">
 	  <linkfile dest="out" src="out"/>
   </project>
 
@@ -22,7 +29,7 @@
   </project>
 
   <!-- friendlywrt source code -->
-  <project path="friendlywrt" name="friendlywrt" remote="origin" revision="refs/heads/master-v19.07.1" />
+  <project path="friendlywrt" name="friendlywrt" remote="origin" revision="refs/heads/master-v19.07.4" />
 
   <!-- toolchain -->
   <project path="toolchain" name="prebuilts" remote="origin" revision="refs/heads/master" />
