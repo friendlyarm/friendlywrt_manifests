@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin"
+          fetch="."
+          revision="refs/heads/master" />
+
+  <!-- kernel 4.19 -->
+  <project path="kernel" name="kernel-rockchip" remote="origin" revision="refs/heads/nanopi4-v4.19.y" />
+  <project path="u-boot" name="uboot-rockchip" remote="origin" revision="refs/heads/nanopi4-v2017.09" />
+  <project path="rkbin" name="rkbin" remote="origin" revision="25de1a8bffb1e971f1a69d1aa4bc4f9e3d352ea3" upstream="master"/>
+
+  <!-- img tools for rk3399 -->
+  <project path="scripts/sd-fuse" name="sd-fuse_rk3399" remote="origin" revision="refs/heads/kernel-4.19">
+	  <linkfile dest="out" src="out"/>
+  </project>
+
+  <!-- friendlyelec device configs -->
+  <project path="device/friendlyelec" name="friendlywrt_device_rk3399" remote="origin" revision="refs/heads/master-v19.07.4" />
+  <project path="configs" name="friendlywrt_configs" remote="origin" revision="refs/heads/master-v19.07.4" />
+
+  <!-- friendlyelec scripts -->
+  <project path="scripts" name="friendlywrt_scripts" remote="origin">
+	  <linkfile dest="build.sh" src="build.sh"/>
+  </project>
+
+  <!-- friendlywrt source code -->
+  <project path="friendlywrt" name="friendlywrt" remote="origin" revision="refs/heads/master-v19.07.4" />
+
+  <!-- toolchain -->
+  <project path="toolchain" name="prebuilts" remote="origin" revision="refs/heads/master" />
+</manifest>
