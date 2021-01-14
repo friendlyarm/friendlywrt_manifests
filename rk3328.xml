@@ -8,7 +8,7 @@
   <project path="u-boot" name="uboot-rockchip" remote="origin" revision="refs/heads/nanopi-r2-v2014.10" />
 
   <!-- img tools for rk3328 -->
-  <project path="scripts/sd-fuse" name="sd-fuse_rk3328" remote="origin" >
+  <project path="scripts/sd-fuse" name="sd-fuse_rk3328" remote="origin" revision="refs/heads/kernel-v5.4.y">
 	  <linkfile dest="out" src="out"/>
   </project>
 
