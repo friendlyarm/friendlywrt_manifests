@@ -6,7 +6,7 @@
 
   <project path="kernel" name="kernel-rockchip" remote="origin" revision="refs/heads/nanopi-r2-v5.10.y" />
   <project path="u-boot" name="uboot-rockchip" remote="origin" revision="refs/heads/nanopi-r2-v2017.09" />
-  <project path="rkbin" name="rkbin" remote="origin" revision="25de1a8bffb1e971f1a69d1aa4bc4f9e3d352ea3" upstream="master"/>
+  <project path="rkbin" name="rkbin" remote="origin" revision="refs/heads/friendlyelec" />
 
   <!-- img tools for rk3328 -->
   <project path="scripts/sd-fuse" name="sd-fuse_rk3328" remote="origin" >
