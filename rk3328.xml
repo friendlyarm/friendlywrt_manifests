@@ -4,12 +4,12 @@
           fetch="."
           revision="refs/heads/master" />
 
-  <project path="kernel" name="kernel-rockchip" remote="origin" revision="refs/heads/nanopi-r2-v5.10.y" />
+  <project path="kernel" name="kernel-rockchip" remote="origin" revision="refs/heads/nanopi-r2-v5.15.y" />
   <project path="u-boot" name="uboot-rockchip" remote="origin" revision="refs/heads/nanopi-r2-v2017.09" />
   <project path="rkbin" name="rkbin" remote="origin" revision="refs/heads/friendlyelec" />
 
   <!-- img tools for rk3328 -->
-  <project path="scripts/sd-fuse" name="sd-fuse_rk3328" remote="origin" >
+  <project path="scripts/sd-fuse" name="sd-fuse_rk3328" remote="origin" revision="refs/heads/kernel-5.15.y">
 	  <linkfile dest="out" src="out"/>
   </project>
 

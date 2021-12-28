@@ -6,16 +6,16 @@
 
   <!-- kernel 4.19 -->
   <!-- <project path="kernel" name="kernel-rockchip" remote="origin" revision="refs/heads/nanopi4-linux-v4.19.y" /> -->
-  <!-- kernel 5.10.y -->
-  <project path="kernel" name="kernel-rockchip" remote="origin" revision="refs/heads/nanopi-r2-v5.10.y-opp1" />
+  <!-- kernel 5.15.y -->
+  <project path="kernel" name="kernel-rockchip" remote="origin" revision="refs/heads/nanopi-r2-v5.15.y-opp1" />
   <project path="u-boot" name="uboot-rockchip" remote="origin" revision="refs/heads/nanopi4-v2017.09" />
   <project path="rkbin" name="rkbin" remote="origin" revision="refs/heads/friendlyelec" />
 
   <!-- img tools for rk3399 -->
   <!-- for kernel 4.19 -->
   <!--<project path="scripts/sd-fuse" name="sd-fuse_rk3399" remote="origin" revision="refs/heads/kernel-4.19"> -->
-  <!-- for kernel 5.10.y -->
-  <project path="scripts/sd-fuse" name="sd-fuse_rk3399" remote="origin" revision="refs/heads/kernel-5.10.y">
+  <!-- for kernel 5.15.y -->
+  <project path="scripts/sd-fuse" name="sd-fuse_rk3399" remote="origin" revision="refs/heads/kernel-5.15.y">
 	  <linkfile dest="out" src="out"/>
   </project>
 
