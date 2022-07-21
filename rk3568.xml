@@ -13,6 +13,7 @@
   </project>
 
   <!-- friendlyelec device configs -->
+  <project path="device/common" name="friendlywrt_device_common" remote="origin" revision="refs/heads/master" />
   <project path="device/friendlyelec" name="friendlywrt_device_rk3568" remote="origin" revision="refs/heads/master-v22.03" />
   <project path="configs" name="friendlywrt_configs" remote="origin" revision="refs/heads/master-v22.03" />
 
