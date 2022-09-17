@@ -14,7 +14,7 @@
 
   <!-- friendlyelec device configs -->
   <project path="device/common" name="friendlywrt_device_common" remote="origin" revision="refs/heads/master" />
-  <project path="device/friendlyelec" name="friendlywrt_device_rk3399" remote="origin" revision="refs/heads/master-v21.02" />
+  <project path="device/friendlyelec" name="friendlywrt_device_rk3399" remote="origin" revision="refs/heads/master-v21.02-k4" />
   <project path="configs" name="friendlywrt_configs" remote="origin" revision="refs/heads/master-v21.02" />
 
   <!-- friendlyelec scripts -->
